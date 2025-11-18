@@ -12,6 +12,7 @@ This is a Task Management System using Kotlin Multiplatform Mobile (KMM) with sh
   - Description
   - Priority (Low, Medium, High)
   - Status (Pending, In Progress, Completed)
+  - Timestamp
   - Color selection
 - Edit existing tasks
 - Delete tasks
