@@ -22,16 +22,9 @@ This is a Task Management System using Kotlin Multiplatform Mobile (KMM) with sh
 
 ---
 
-## Tech Stack
+## Tech Stack and Components
 
-Kotlin Multiplatform Mobile (KMM)
-Kotlin
-Jetpack Compose
-SQLdelight 
-Hilt (Dependency Injection)
-Material3
-Coroutine Flows
-Navigation Component
+Kotlin Multiplatform Mobile (KMM), Kotlin, Jetpack Compose, SQLdelight , Hilt (Dependency Injection), Material3, Coroutine Flows, Navigation Component
 
 ## Screenshots
 
