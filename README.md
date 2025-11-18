@@ -1,39 +1,42 @@
-This is a Kotlin Multiplatform project targeting Android, iOS.
+# Task Manager App
 
-* [/composeApp](./composeApp/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./composeApp/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./composeApp/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./composeApp/src/jvmMain/kotlin)
-    folder is the appropriate location.
-
-* [/iosApp](./iosApp/iosApp) contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform,
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
-
-* [/shared](./shared/src) is for the code that will be shared between all targets in the project.
-  The most important subfolder is [commonMain](./shared/src/commonMain/kotlin). If preferred, you
-  can add code to the platform-specific folders here too.
-
-### Build and Run Android Application
-
-To build and run the development version of the Android app, use the run configuration from the run widget
-in your IDE’s toolbar or build it directly from the terminal:
-- on macOS/Linux
-  ```shell
-  ./gradlew :composeApp:assembleDebug
-  ```
-- on Windows
-  ```shell
-  .\gradlew.bat :composeApp:assembleDebug
-  ```
-
-### Build and Run iOS Application
-
-To build and run the development version of the iOS app, use the run configuration from the run widget
-in your IDE’s toolbar or open the [/iosApp](./iosApp) directory in Xcode and run it from there.
+**Description:**  
+This is a Task Management System using Kotlin Multiplatform Mobile (KMM) with shared business logic and native Android UI by Jetpack Compose, Hilt, SQLdelight , Material3 etc.This app allows creating, editing, deleting, and searching tasks.
 
 ---
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## Features
+
+- Add new tasks:
+  - Title
+  - Description
+  - Priority (Low, Medium, High)
+  - Status (Pending, In Progress, Completed)
+  - Color selection
+- Edit existing tasks
+- Delete tasks
+- Search tasks by title
+- Tasks stored locally 
+- MVVM architecture with Hilt and ViewModel
+- Material3 design
+
+---
+
+## Tech Stack
+
+Kotlin Multiplatform Mobile (KMM)
+Kotlin
+Jetpack Compose
+SQLdelight 
+Hilt (Dependency Injection)
+Material3
+Coroutine Flows
+Navigation Component
+
+## Screenshots
+
+```markdown
+![Task List Screen](<img width="288" height="641" alt="Screenshot at Nov 19 01-21-33" src="https://github.com/user-attachments/assets/3276931e-69d9-47e4-8134-fd2a948fe5c0" />
+)
+![Add Task Screen](<img width="287" height="642" alt="Screenshot at Nov 19 01-21-06" src="https://github.com/user-attachments/assets/c11d8f24-76c4-4502-bdd0-5c3350f110c0" />
+)
