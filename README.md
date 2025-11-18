@@ -27,10 +27,9 @@ This is a Task Management System using Kotlin Multiplatform Mobile (KMM) with sh
 Kotlin Multiplatform Mobile (KMM), Kotlin, Jetpack Compose, SQLdelight , Hilt (Dependency Injection), Material3, Coroutine Flows, Navigation Component
 
 
-## Screenshots
 
 ## Screenshots
 
-<img src="images/Screenshot%20at%20Nov%2019%2001-21-06.png" width="500">
+<img src="images/Screenshot%20at%20Nov%2019%2001-21-06.png" style="width:600px; height:400px; object-fit:cover;">
 
-<img src="images/Screenshot%20at%20Nov%2019%2001-21-33.png" width="500">
+<img src="images/Screenshot%20at%20Nov%2019%2001-21-33.png" style="width:600px; height:400px; object-fit:cover;">
