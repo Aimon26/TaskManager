@@ -28,8 +28,8 @@ Kotlin Multiplatform Mobile (KMM), Kotlin, Jetpack Compose, SQLdelight , Hilt (D
 
 ## Screenshots
 
-```markdown
-![Task List Screen](<img width="288" height="641" alt="Screenshot at Nov 19 01-21-33" src="https://github.com/user-attachments/assets/3276931e-69d9-47e4-8134-fd2a948fe5c0" />
-)
-![Add Task Screen](<img width="287" height="642" alt="Screenshot at Nov 19 01-21-06" src="https://github.com/user-attachments/assets/c11d8f24-76c4-4502-bdd0-5c3350f110c0" />
-)
+### Screenshot 1
+![Screenshot 1](images/Screenshot%20at%20Nov%2019%2001-21-06.png)
+
+### Screenshot 2
+![Screenshot 2](images/Screenshot%20at%20Nov%2019%2001-21-33.png)
