@@ -1,0 +1,52 @@
+CREATE TABLE TaskEntity (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    description TEXT,
+    priority TEXT NOT NULL DEFAULT 'MEDIUM',
+    status TEXT NOT NULL DEFAULT 'To Do',
+    dueDate INTEGER,
+    createdAt INTEGER NOT NULL,
+    updatedAt INTEGER NOT NULL,
+    colorHex INTEGER NOT NULL
+);
+
+CREATE INDEX task_priority_index ON TaskEntity(priority);
+CREATE INDEX task_status_index ON TaskEntity(status);
+CREATE INDEX task_due_date_index ON TaskEntity(dueDate);
+CREATE INDEX task_created_at_index ON TaskEntity(createdAt);
+
+getAll:
+SELECT * FROM TaskEntity
+ORDER BY createdAt DESC;
+
+getById:
+SELECT * FROM TaskEntity
+WHERE id = ?;
+
+searchByTitle:
+SELECT * FROM TaskEntity
+WHERE title LIKE '%' || ? || '%'
+ORDER BY createdAt DESC;
+
+insertTask:
+INSERT INTO TaskEntity(title, description, priority, status, dueDate, createdAt, updatedAt, colorHex)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?);
+
+updateTask:
+UPDATE TaskEntity
+SET
+    title = ?,
+    description = ?,
+    priority = ?,
+    status = ?,
+    dueDate = ?,
+    updatedAt = ?,
+    colorHex = ?
+WHERE id = ?;
+
+deleteTask:
+DELETE FROM TaskEntity
+WHERE id = ?;
+
+deleteAll:
+DELETE FROM TaskEntity;
