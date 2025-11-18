@@ -1,7 +1,7 @@
 # Task Manager App
 
 **Description:**  
-This is a Task Management System using Kotlin Multiplatform Mobile (KMM) with shared business logic and native Android UI by Jetpack Compose, Hilt, SQLdelight , Material3 etc.This app allows creating, editing, deleting, and searching tasks.
+This is a Task Management System using Kotlin Multiplatform Mobile (KMM) with shared business logic and native Android UI by Jetpack Compose, Hilt, SQLdelight , Material3 etc. This app allows creating, editing, deleting, and searching tasks.
 
 ---
 
