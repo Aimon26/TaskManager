@@ -31,6 +31,6 @@ Kotlin Multiplatform Mobile (KMM), Kotlin, Jetpack Compose, SQLdelight , Hilt (D
 
 ## Screenshots
 
-<img src="images/Screenshot%20at%20Nov%2019%2001-21-06.png" style="width:400px; height:750px; object-fit:cover;">
+<img src="images/Screenshot%20at%20Nov%2019%2001-21-06.png" style="width:400px; height:800px; object-fit:cover;">
 
-<img src="images/Screenshot%20at%20Nov%2019%2001-21-33.png" style="width:400px; height:750px; object-fit:cover;">
+<img src="images/Screenshot%20at%20Nov%2019%2001-21-33.png" style="width:400px; height:800px; object-fit:cover;">
